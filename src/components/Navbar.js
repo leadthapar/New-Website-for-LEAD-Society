@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo.png";
+import logo from "../Assets/newlogo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
@@ -39,7 +39,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/">
-          <img src={logo}  style={{height:'50px'}} alt="brand" />
+          <img src={logo}  style={{height:'150px'}} alt="brand" />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -55,7 +55,7 @@ function NavBar() {
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+                <AiOutlineHome style={{ marginBottom: "1px" }} /> Home
               </Nav.Link>
             </Nav.Item>
 
@@ -65,7 +65,7 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                <AiOutlineUser style={{ marginBottom: "1px" }} /> About us
               </Nav.Link>
             </Nav.Item>
 
@@ -76,9 +76,9 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
+                  style={{ marginBottom: "1px" }}
                 />{" "}
-                Projects
+                Events
               </Nav.Link>
             </Nav.Item>
 
@@ -88,7 +88,7 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                <CgFileDocument style={{ marginBottom: "1px" }} /> Sponsors
               </Nav.Link>
             </Nav.Item>
 
@@ -98,7 +98,7 @@ function NavBar() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                <ImBlog style={{ marginBottom: "1px" }} /> Contact
               </Nav.Link>
             </Nav.Item>
 
