@@ -28,7 +28,7 @@ function Projects() {
               isBlog={false}
               title="WORKSHOPS"
               description="We at LEAD believe in creating an impact thorugh knowledge.To keep up with this,LEAD conducted weekly workshops for its members, Where expersts from various fields shared their experience in fields like graphic designing,content writing etc"
-              link="https://github.com/soumyajit4419/Chatify"
+              
             />
           </Col>
 
@@ -38,7 +38,7 @@ function Projects() {
               isBlog={false}
               title="FLUTTER WORKSHOP"
               description="Another mind-boggling workshop was organized by LEAD on 14th and 15th January 2020,with a motive to enhance technical skills and promote app development among young minds.Participants were given insights to Flutter enviorment setups."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              
             />
           </Col>
 
@@ -46,9 +46,9 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="WEB SET GO"
-              description="LEAD organised Web Set Go in December 2020.This was a technical event about web development.The event focused on mentors throwing light upon the basics of web development "
-              link="https://github.com/soumyajit4419/Editor.io"
+              title="ALUMNI TALKS"
+              description="Web Set Go was concluded with 2 days of information interaction with some of the most prestigious alumni of Thapar and some external guests.They shared their life experiences in various Technical(web dev, app dev, programming) and Non-Technical (leadership, public speaking, presentation) skills"
+              
             />
           </Col>
 
@@ -58,7 +58,7 @@ function Projects() {
               isBlog={false}
               title="SHOONYA"
               description="The most exciting and captivating event, 'SHOONYA 2.0' was hosted by LEAD.It was a week-long event which involved a series of events that tested one's technical,non-technical and reasoning skills. It was a flagship event, and has always been looked fowrad by the audience "
-              link="https://github.com/soumyajit4419/Bits-0f-C0de"
+             
             />
           </Col>
 
@@ -68,7 +68,7 @@ function Projects() {
               isBlog={false}
               title="ASK ME ANYTHING"
               description="LEAD conducted an AMA session with one of the leading industrialists and college seniors where they imparted their experience and knowledge related to the field and interacted with the attendees resolving their queries and doubts."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
+              
             />
           </Col>
 
@@ -76,9 +76,11 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="ANOTHER EVENT"
-              description="lorem"
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="THE WEBBIES"
+              description="The most awaited journey into the wide realms of webdevelopment started with a three-day workshop on web
+              development from scratch. The event started with an enlightening HTML+CSS and JavaScript workshop
+              followed by it's implementation in a mini-project."
+              
             />
           </Col>
         </Row>
