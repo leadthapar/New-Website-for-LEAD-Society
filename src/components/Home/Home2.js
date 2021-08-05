@@ -8,25 +8,26 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { BiArrowToTop } from "react-icons/bi";
 
 function Home2() {
   return (
-    <Container fluid className="home-about-section" id="about">
+    <Container fluid className="home-about-section"  id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
+          <Col md={8} className="home-about-description" style={{marginTop:'60px'}}>
             <h1 style={{ fontSize: "2.6em" }}>
-            About<span className="purple"> LEAD Society, TIET </span>
+            About<span className="purple"> LEAD </span>
             </h1>
-            <p className="home-about-body">
+            <p className="home-about-body justify-content" >
             LEAD was formed with the objective of providing students a dynamic platform which feeds their curiosity and develops their technical skills. LEAD aims to create a community of versatile enthusiasts with progressive mindset, promoting development holistically which includes injecting soft skills as well.
               <br /><br/>
               LEAD effectuates it by organizing numerous technologies driven events including tech meetups and Hackathons and promoting team building.
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={4} className="myAvtar ">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluid" style={{borderRadius:'50px'}} alt="avatar" />
             </Tilt>
           </Col>
         </Row>
