@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
+  AiFillGoogleCircle,
   AiFillInstagram,
   AiFillYoutube
 } from "react-icons/ai";
@@ -59,6 +60,16 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="mailto:lead_sc@thapar.edu"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiFillGoogleCircle />
               </a>
             </li>
           </ul>
