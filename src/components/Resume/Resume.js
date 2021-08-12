@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
+//import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
-import axios from "axios";
-import pdf from "../../Assets/Soumyajit-Behera.pdf";
-import { AiOutlineDownload } from "react-icons/ai";
+import SlickDemo from "./slickDemo";
+//import axios from "axios";
+//import pdf from "../../Assets/Soumyajit-Behera.pdf";
+//import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
   const uri = "https://porfolio-backend.vercel.app/ranks/getRanks";
@@ -14,7 +15,7 @@ function Resume() {
   const [sem, upadateSem] = useState(0);
   const [cgpa, upadteCgpa] = useState(0);
 
-  useEffect(() => {
+  /*useEffect(() => {
     axios
       .get(uri)
       .then((res) => {
@@ -27,7 +28,7 @@ function Resume() {
         console.log(err);
       });
   }, []);
-
+*/
   return (
     <Container fluid className="resume-section">
       <Particle />
@@ -38,6 +39,7 @@ function Resume() {
         <Row className="resume">
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
+          
             <Resumecontent
               title="JUNIOR ML ENGINEER [Omdena]"
               date="June 2020 - August 2020"
@@ -87,14 +89,16 @@ function Resume() {
                 "Participant in Hack-A-Bit 2019",
               ]}
             />
+            <SlickDemo/>
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
-         
         </Row>
       </Container>
     </Container>
+    
   );
+  
 }
 
 export default Resume;
