@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.col-md-3{
+  display: inline-block;
+  margin-left:-4px;
+}
+.col-md-3 div{
+  width:100%;
+  height:auto;
+}
+
+body .carousel-indicators{
+  bottom: 0;
+}
+
+

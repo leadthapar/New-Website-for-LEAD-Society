@@ -8,7 +8,6 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import { BiArrowToTop } from "react-icons/bi";
 
 function Home2() {
   return (
