@@ -2,6 +2,7 @@ import {Card} from 'react-bootstrap';
 import {
     AiFillGithub,
     AiFillInstagram,
+    AiFillMail,
   } from "react-icons/ai";
   import { FaLinkedinIn } from "react-icons/fa";
 
@@ -11,7 +12,7 @@ return (
     <>
     
     <Card style={{ width: '18rem' }} className="mx-4 my-5 bg-dark text-light rounded">
-  <Card.Img variant="top" src={props.img} />
+  <Card.Img variant="top" style={{ height: '350px'}} src={props.img} />
   <Card.Body>
     <Card.Title ><h3 className="font-weight-bold">{props.name}</h3></Card.Title>
     <Card.Text>
@@ -25,7 +26,7 @@ return (
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiFillGithub />
+                  <AiFillMail />
                 </a>
               </li>
           
