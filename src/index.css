@@ -45,7 +45,15 @@ body {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: green;
+  background-color: black;
+  opacity: 100%;
+  
+}
+
+.cardimg
+{
+  border-radius: 100%;
+  width: 100%;
 }
 
 /* Style the back side */

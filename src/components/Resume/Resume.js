@@ -17,6 +17,7 @@ function Resume() {
         <FlipCard
           name={elem.name}
           desc={elem.desc}
+          image={elem.image}
         />
       )
     })
