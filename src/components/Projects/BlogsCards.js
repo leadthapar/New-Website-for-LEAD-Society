@@ -12,7 +12,8 @@ function BlogsCards(props) {
       style={{ fontSize: "1.2em" }}
     >
       <Card className="blog-card-view">
-        <Card.Img variant="top" src={props.imgPath} className="blog-img" />
+        <Card.Img variant="top" src={props.imgPath} 
+        className="blog-img" />
         <Card.Footer>
           <BsLink />
           &nbsp;

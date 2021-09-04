@@ -275,7 +275,7 @@ const  ExecutiveBoard = [
     {
         name : 'Sanidhiya',
         positon:'Technical Head',
-        linkedIn:'https://www.linkedin.com/in/sanidhiya-%E2%80%8E-86a427192/',
+        linkedIn:'https://www.linkedin.com/in/sanidhiya-g-86a427192/',
         facebook:'mailto:ssanidhiya_be19@thapar.edu',
         img : SA,
 

@@ -1,4 +1,4 @@
-import {Card} from 'react-bootstrap';
+import {Card,Container} from 'react-bootstrap';
 import {
     AiFillGithub,
     AiFillInstagram,
@@ -11,8 +11,9 @@ const DetailCard = (props)=>{
 return (
     <>
     
-    <Card style={{ width: '18rem' }} className="mx-4 my-5 bg-dark text-light rounded">
-  <Card.Img variant="top" style={{ height: '350px'}} src={props.img} />
+    <Card style={{ width: '18rem' }} className="mx-4 my-5 bg-transparent text-light rounded">
+    <Container className="bg-dark">
+  <Card.Img variant="top" style={{ display:'block'}} src={props.img} />
   <Card.Body>
     <Card.Title ><h3 className="font-weight-bold">{props.name}</h3></Card.Title>
     <Card.Text>
@@ -52,6 +53,7 @@ return (
               </li>
             </ul>
   </Card.Body>
+  </Container>
 </Card>
     </>
 )
