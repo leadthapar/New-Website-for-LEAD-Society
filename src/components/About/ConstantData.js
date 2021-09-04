@@ -9,10 +9,11 @@ import HA from '../../Assets/Harshita.jpg';
 import KA from '../../Assets/Kashika.jpeg';
 import KH from '../../Assets/Khushi.jpeg';
 import MA from '../../Assets/Manvendra.jpeg';
-import PR from '../../Assets/Prateek Mittal.jpeg';
+import TA from '../../Assets/Tanay.jpg';
 import RA from '../../Assets/Radhika.jpeg';
 import RI from '../../Assets/Ritika.jpeg';
 import RU from '../../Assets/Rupinder.jpeg';
+import SSI from '../../Assets/shubham.jpg';
 import YU from '../../Assets/Yuvraj.jpg';
 import JA from '../../Assets/Jashan.jpg';
 import SK from '../../Assets/Saurabh.jpg';
@@ -145,12 +146,12 @@ const  CoreMembers = [
 
     },
     {
-        name : 'Prateek Mittal',
+        name : 'Tanay Bhatia',
         positon:'Core',
-        linkedIn:'https://www.linkedin.com/in/prateek-mittal-2002/',
-        instagram:'https://www.instagram.com/mprateek2002/',
-        facebook:'mailto:prateekmittal154@gmail.com',
-        img : PR,
+        linkedIn:'https://www.linkedin.com/in/tanay-bhatia-32030821a',
+        instagram:'https://www.instagram.com/bhatiatanay7/',
+        facebook:'mailto:bhatiatanay25@gamil.com',
+        img : TA,
 
     },
     {
@@ -181,6 +182,17 @@ const  CoreMembers = [
         instagram:'https://instagram.com/_.rupinder._._?utm_medium=copy_link',
         facebook:'mailto:rupindersidhu4848@gmail.com',
         img : RU,
+
+
+
+    },
+    {
+        name : 'Shubham Sinha',
+        positon:'Core',
+        linkedIn:'https://www.linkedin.com/in/shubham-sinha-b270931b6',
+        instagram:'https://instagram.com/iamsinha27?utm_medium=copy_link',
+        facebook:'mailto:ssinha_be20@thapar.edu',
+        img : SSI,
 
 
 
