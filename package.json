@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "http://dragonman164.github.io/temp",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
