@@ -8,7 +8,7 @@ function Resume() {
     <div style={{
       paddingTop: '70px'
   }}> 
-  <h1 className="my-5 text-light font-weight-bold">Our Sponsors</h1>
+  <h1 className="my-5 text-light font-weight-bold" style={{width:"1500px"}}>Our Sponsors</h1>
   <Container className="my-5 text-light">
   <div className="row">
   {

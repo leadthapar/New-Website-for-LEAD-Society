@@ -1,3 +1,9 @@
+import WA from '../../Assets/wander.jpg';
+import PO from '../../Assets/polygon.png';
+import HAC from '../../Assets/Hack.png';
+import DRO from '../../Assets/drop.png';
+import CE from '../../Assets/celo.jpg';
+
 const Sponsor = [
     {
         name:'Microsoft Learn Student Ambassador ',
@@ -57,12 +63,12 @@ const Sponsor = [
     {
         name:"Hack Club",
         desc:'Hack Club is a global network of programming clubs where members learn to code through tinkering and building project',
-        image:"https://www.ffwd.org/wp-content/uploads/Hack-Club-logo-for-website-250x125.png",
+        image: HAC ,
     },
     {
         name:"Polygon",
         desc:'Polygon is an  easy-to-use platform for Ethereum scaling and infrastructure development for  blockchain networks.',
-        image:"http://cdn3.sbnation.com/imported_assets/1271107/polygon_logo_black-1050.0_standard_520.0.png",
+        image:PO ,
     },
     {
         name:"PrepBytes",
@@ -92,7 +98,7 @@ const Sponsor = [
     {
         name:"Wanderlooms",
         desc:'Wanderlooms is for all the thrill-lovers & travel- enthusiasts seeking travel infused wardrobe.. It is a "one- stop- shop" for a wide range of travel-related needs.',
-        image:"https://www.bing.com/th?id=AMMS_S_4304fffc-d670-9c9a-6d4c-8eec547039ae&w=110&h=110&c=7&rs=1&qlt=95&pcl=f9f9f9&o=6&cdv=1&dpr=1.25&pid=16.1",
+        image:WA ,
     },
     {
         name:"Egghead",
@@ -102,7 +108,7 @@ const Sponsor = [
     {
         name:"Dropout",
         desc:'Dropout Store India is your stop for a wide range of Tees that express you. Here you’ll find premium quality T-shirts and tops that define your personality.',
-        image:"https://www.dropout.store/wp-content/uploads/2018/06/Dropout-Logo-Large-e1530620409726.png",
+        image:DRO ,
     },
     {
         name:"Devfolio",
@@ -112,7 +118,7 @@ const Sponsor = [
     {
         name:"Celo",
         desc:'Celo is a mobile-first blockchain optimized for peer-to-peer payments using only a mobile number',
-        image:"https://www.bing.com/th?id=AMMS_ea1f870952d86709f0a6b4de54d8bbbc&w=110&h=110&c=7&rs=1&qlt=95&pcl=f9f9f9&o=6&cdv=1&dpr=1.25&pid=16.1",
+        image: CE,
     },
     {
         name:"Tezos",
