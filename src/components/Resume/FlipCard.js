@@ -8,7 +8,7 @@ const FlipCard = (props)=>{
         <>
         <div className="flip-card my-5 mx-3" style={{width:"300px"}}>
   <div className="flip-card-inner">
-    <div  className="flip-card-front">
+    <div  className="flip-card-front bg-dark">
       <img className="cardimg"  src={props.image} alt="Avatar" style={{width:"200px",height:"200px",marginTop:'20px'}}/>
     </div>
     <div className="flip-card-back" >

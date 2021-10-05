@@ -72,7 +72,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/project"
+                to="/event"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineFundProjectionScreen
@@ -85,22 +85,13 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/resume"
+                to="/sponsors"
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "1px" }} /> Sponsors
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                href="https://blogs.soumyajit.tech/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <ImBlog style={{ marginBottom: "1px" }} /> Contact
-              </Nav.Link>
-            </Nav.Item>
 
             <Nav.Item className="fork-btn">
               <Button
