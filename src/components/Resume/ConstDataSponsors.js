@@ -3,6 +3,8 @@ import PO from '../../Assets/polygon.png';
 import HAC from '../../Assets/Hack.png';
 import DRO from '../../Assets/drop.png';
 import CE from '../../Assets/celo.jpg';
+import VB from '../../Assets/visualbulletin.jpg';
+import VE from '../../Assets/verzeo.png';
 
 const Sponsor = [
     {
@@ -43,7 +45,7 @@ const Sponsor = [
     {
         name:'Visual Bulletin',
         desc:'Visual Bulletin is the Official Branding society of Thapar University. It has been a publicity and media coverage partner of all the major events that are held in the university',
-        image:"https://scontent.fbom45-1.fna.fbcdn.net/v/t1.6435-9/39610632_1061872550604389_1754010363889713152_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=973b4a&_nc_ohc=HwCxBM40cQsAX9Cs2aN&_nc_oc=AQn5YeVpZ8gSb0h99sfKI3zKHxn7whU8H8-bA_WeksUw6IR0GishXc67kO8xZ1zT3t8&_nc_ht=scontent.fbom45-1.fna&oh=469b2533da0fd281b62e9825ce1cc380&oe=61406E13",
+        image: VB,
     },
     {
         name:'Replit',
@@ -53,7 +55,7 @@ const Sponsor = [
     {
         name:'Verzeo',
         desc:'Verzeo is an AI based online company that focuses on preparing students for workplaces and corporate culture by providing them with internship opportunities, mentorship programs, and real-life projects.',
-        image:"https://scontent.fixc11-1.fna.fbcdn.net/v/t31.18172-8/21753351_158039408111895_3218775901916436117_o.jpg?_nc_cat=106&ccb=1-5&_nc_sid=973b4a&_nc_ohc=QX6--QGABYkAX82IW7z&_nc_ht=scontent.fixc11-1.fna&oh=8d995fc73a635d17a149c10ab415b423&oe=613F970E",
+        image: VE,
     },
     {
         name:'StickerMule',

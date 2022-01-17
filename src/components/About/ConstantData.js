@@ -1,9 +1,9 @@
 import Image from '../../Assets/temp.jpg';
 import AA from '../../Assets/Aarushi.jpg';
-import AB from '../../Assets/Abhay.jpg';
+import AB from '../../Assets/abhay2.jpg';
 import AD from '../../Assets/Aditya.jpg';
 import AR from '../../Assets/Arshiya.jpg';
-import AS from '../../Assets/Ashmita.jpg';
+import AS from '../../Assets/anirudh.jpg';
 import DE from '../../Assets/Deeksha.jpg';
 import HA from '../../Assets/Harshita.jpg';
 import KA from '../../Assets/Kashika.jpeg';
@@ -39,6 +39,9 @@ import SHIVA from '../../Assets/ShivamPundir.jpg';
 import RAJ from '../../Assets/rajeev.jpg';
 import BHAV from '../../Assets/Bhawika.jpg';
 import SHAU from '../../Assets/ShauryaThakur.jpg';
+import SMAG from '../../Assets/Saruuuu9.jpg';
+import KE from '../../Assets/keshav.jfif';
+import SAG from '../../Assets/sarisha.jpg';
 
 
 
@@ -79,6 +82,17 @@ const  CoreMembers = [
 
 
     },
+ 
+    {
+        name : 'Anirudh Saxena',
+        positon:'Core',
+        linkedIn:'https://www.linkedin.com/in/anirudh-saxena-236209208',
+        instagram:'http://instagram.com/ani_1211_rudh',
+        facebook:'mailto:anirudhs121101@gmail.com',
+        img : AS,
+
+
+    },
     {
         name : 'Arshiya Choudha',
         positon:'Core',
@@ -88,26 +102,7 @@ const  CoreMembers = [
         img : AR,
 
     },
-    {
-        name : 'Ashmita Tandon',
-        positon:'Core',
-        linkedIn:'https://www.linkedin.com/in/ashmita-tandon-67334320b/',
-        instagram:'https://www.instagram.com/ashmita.tandon/',
-        facebook:'mailto:ashmita.tandon575@gmail.com',
-        img : AS,
 
-
-    },
-    {
-        name : 'Deeksha Chutani',
-        positon:'Core',
-        linkedIn:'https://www.linkedin.com/in/deeksha-chutani-802699203/',
-        instagram:'https://www.instagram.com/deeksha_chutani',
-        facebook:'mailto:dc.chutani@gmail.com',
-        img : DE,
-
-
-    },
     {
         name : 'Harshita Singh',
         positon:'Core',
@@ -125,6 +120,16 @@ const  CoreMembers = [
         instagram:'https://instagram.com/kashika1109?utm_medium=copy_link',
         facebook:'mailto:kashikamohindru@gmail.com',
         img : KA,
+
+    },
+    {
+        name : 'Keshav Bhatia',
+        positon:'Core',
+        linkedIn:'https://www.linkedin.com/in/keshav-bhatia-4b57311b1',
+        instagram:'https://www.instagram.com/invites/contact/?i=dq9boxwshgcm&utm_content=evvi03k',
+        facebook:'mailto:kbhatia_be20@thapar.edu',
+        img : KE,
+
 
     },
     {
@@ -146,6 +151,28 @@ const  CoreMembers = [
 
     },
     {
+        name : 'Sarisha Aggarwal',
+        positon:'Core',
+        linkedIn:'https://www.linkedin.com/in/sarisha-aggarwal-9002871bb/',
+        instagram:'https://www.instagram.com/saris.haaaa/',
+        facebook:'mailto:kalsi.yuvraj92@gmail.com',
+        img : SAG,
+
+
+
+    },
+    {
+        name : 'Saru Mangla',
+        positon:'Core',
+        linkedIn:'https://www.linkedin.com/in/saru-mangla-12889b1b7/',
+        instagram:'https://www.instagram.com/saru_mangla/',
+        facebook:'mailto:smangla_be20@thapar.edu',
+        img : SMAG,
+
+
+
+    },
+    {
         name : 'Tanay Bhatia',
         positon:'Core',
         linkedIn:'https://www.linkedin.com/in/tanay-bhatia-32030821a',
@@ -164,17 +191,7 @@ const  CoreMembers = [
 
     },
     
-    {
-        name : 'Ritika Chugh',
-        positon:'Core',
-        linkedIn:'https://www.linkedin.com/in/ritika-chugh-0ba310203',
-        instagram:'https://www.instagram.com/ritika.1729/',
-        facebook:'mailto:schugh58@gmail.com',
-        img : RI,
 
-
-
-    },
     {
         name : 'Rupinder Kaur',
         positon:'Core',
@@ -208,6 +225,8 @@ const  CoreMembers = [
 
 
     },
+
+ 
    
 ]
 
