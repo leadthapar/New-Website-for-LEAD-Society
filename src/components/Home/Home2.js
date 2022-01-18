@@ -19,9 +19,9 @@ function Home2() {
             About<span className="purple"> LEAD </span>
             </h1>
             <p className="home-about-body justify-content" >
-            LEAD was formed with the objective of providing students a dynamic platform which feeds their curiosity and develops their technical skills. LEAD aims to create a community of versatile enthusiasts with progressive mindset, promoting development holistically which includes injecting soft skills as well.
+            LEAD was founded to provide students with a dynamic platform that feeds their curiosity and develops their technical skills. LEAD aims to create a community of versatile enthusiasts with a progressive mindset, promoting development holistically which, includes injecting soft skills as well
               <br /><br/>
-              LEAD effectuates it by organizing numerous technologies driven events including tech meetups and Hackathons and promoting team building.
+              LEAD executes it by organizing numerous technology-driven events consisting of tech meetups, Hackathons and promoting team building.
             </p>
           </Col>
           <Col md={4} className="myAvtar ">
